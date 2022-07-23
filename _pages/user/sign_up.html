@@ -1,0 +1,33 @@
+---
+title: Sign Up
+layout: home
+---
+<!-- TODO:  CORS POST: 	Запит зі стороннього джерела заблоковано: Політика одного джерела не дозволяє читання 
+						віддаленого ресурсу на https://127.0.0.1:3000/users.json. (Причина: запит CORS не вдався). 
+						Код стану: (null).
+			404:		/jekyll-gitbook -->
+<div class="form-group">
+	<label for="uname">Username</label>
+	<input class="form-control" type="text" id="uname">
+
+	<label for="email">E-mail</label>
+	<input class="form-control" type="email" id="email">		
+	
+	<label for="password">Password</label>
+	<input  class="form-control" type="password" id="password">
+
+	<label for="password_confirm">Confirmation</label>
+	<input class="form-control" type="password" id="password_confirm">
+	
+	<div class="form-check">
+	    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+	    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+	</div>
+	
+	<button type="button" name ="send" onclick="signUp()" class="btn btn-primary">
+		Submit
+	</button>
+</div>
+
+<script src="{{site.api_url}}/helper.js"></script>
+<script src="{{site.api_url}}/user/sign_up.js"></script>
