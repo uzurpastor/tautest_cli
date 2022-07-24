@@ -17,7 +17,7 @@ styles:           '/assets/styles'
 images:           '/assets/images'
 scripts:          '/assets/scripts'
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingno'
+# remote_theme: uzurpastor/tau_est_cli
 
 # markdown render engine.
 markdown:         kramdown

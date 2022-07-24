@@ -6,7 +6,7 @@ gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
-
+gem 'certified'
 group :jekyll_plugins do
 	gem "github-pages"
 end

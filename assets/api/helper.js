@@ -1,8 +1,7 @@
-{% if jekyll.environment == "development" %}
+if (ENV.JEKYLL_ENV == "development")
 	var server_url = 'https://localhost:3000'
-{% else %}
+if (ENV.JEKYLL_ENV == "prodaction")
 	var server_url = 'https://heroku'
-{% endif %}
 
 function getDataFromField(elements){
 	var hash_set = {};
