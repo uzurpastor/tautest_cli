@@ -7,3 +7,6 @@ gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
 
+group: :jekyll_plugins do
+	gem "github-pages", "~> GITHUB-PAGES-VERSION", 
+end

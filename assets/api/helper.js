@@ -1,4 +1,9 @@
-var server_url = 'https://localhost:3000'  
+{% if jekyll.environment == "development" %}
+	var server_url = 'https://localhost:3000'
+{% else %}
+	var server_url = 'https://heroku'
+{% endif %}
+
 function getDataFromField(elements){
 	var hash_set = {};
 	elements.forEach(function(item) {
