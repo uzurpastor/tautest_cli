@@ -5,9 +5,7 @@ email:            shevshenko.andrey.uzurpastor@gmail.com
 description: >
   TauEst - website for testing employees of the organization. The application has a client-server architecture
 
-version:          1.0
-gitbook_version:  3.2.3
-repository: uzurpastor/tau_est_cli
+repository:       'uzurpastor/tau_est_cli'
 
 url:              'https://uzurpastor.github.io'
 rss:              RSS
