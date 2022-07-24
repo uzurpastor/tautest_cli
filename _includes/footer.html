@@ -1,14 +1,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script src="{{site.baseurl}}{{site.scripts}}/tauest.js"></script>
-<script src="{{site.baseurl}}{{site.scripts}}/theme.js"></script>
+<script src="{{site.scripts}}/tauest.js"></script>
+<script src="{{site.scripts}}/theme.js"></script>
 
-<script src="{{site.baseurl}}{{site.scripts}}/plugin-fontsettings/fontsettings.js"></script>
-<script src="{{site.baseurl}}{{site.scripts}}/plugin-sharing/buttons.js"></script>
+<script src="{{site.scripts}}/plugin-fontsettings/fontsettings.js"></script>
+<script src="{{site.scripts}}/plugin-sharing/buttons.js"></script>
 
-<script src="{{site.baseurl}}{{site.scripts}}/plugin-search-pro/jquery.mark.min.js"></script>
-<script src="{{site.baseurl}}{{site.scripts}}/plugin-search-pro/search.js"></script>
-<script src="{{site.baseurl}}{{site.scripts}}/plugin-back-to-top-button/plugin.js"></script>
+<script src="{{site.scripts}}/plugin-search-pro/jquery.mark.min.js"></script>
+<script src="{{site.scripts}}/plugin-search-pro/search.js"></script>
+<script src="{{site.scripts}}/plugin-back-to-top-button/plugin.js"></script>
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
@@ -18,7 +18,7 @@
         {% if starts_with == "http" %}
 <script src="{{ extra_js }}"></script>
         {%- else -%}
-<script src="{{site.baseurl}}/{{ extra_js }}"></script>
+<script src="/{{ extra_js }}"></script>
         {%- endif -%}
     {%- endfor -%}
 {% endif %}

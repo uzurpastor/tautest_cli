@@ -76,7 +76,7 @@
         "version": "{{site.gitbook_version}}",
         "time": "{{site.time}}"
     },
-    "basePath": "{{site.baseurl}}",
+    "basePath": "",
     "book": {
         "language": ""
     }
