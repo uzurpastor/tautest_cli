@@ -1,6 +1,6 @@
 if (ENV.JEKYLL_ENV == "development")
 	var server_url = 'https://localhost:3000'
-if (ENV.JEKYLL_ENV == "prodaction")
+if (ENV.JEKYLL_ENV == "production")
 	var server_url = 'https://tauest-srv.herokuapp.com'
 
 function getDataFromField(elements){
